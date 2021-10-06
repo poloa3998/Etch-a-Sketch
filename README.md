@@ -28,3 +28,7 @@ This project has the capabilites to
 * Better undertanding of flexboxes to create a web template
 * Understanding animations and transitions through CSS
 * Improved knowledge of DOM manipulation through JS
+
+## Possible additions later on
+
+* Mobile Support
