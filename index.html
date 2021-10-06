@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+  <title>Sketch Game</title>  
+  <meta charset="UTF-8">
+  <script src= "script.js" defer></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class = "header"> Etch-a-Sketch</div>
+    <div class ="main">
+        <div class = "menu">
+            <input id ="color-picker" type = "color" value="#000000">
+            <button id = "color-btn"> Color Mode</button>
+            <button id ="rainbow-btn">Rainbow Mode</button>
+            <button id= "shader-btn"> Shader Mode</button>
+            <button id ="eraser-btn"> Eraser</button>
+            <button id= "clear-btn">Clear button</button>
+        </div>
+        <div id ="grid" class = "grid"></div>
+    </div>
+    <div class = "slider">
+        <input type="range" id="grid-size" value = "16" min="1" max="100">
+        <p id="grid-size-value"> 16 x 16 </p>
+    </div>
+<footer><p> yeee</p></footer>
+</body>
+</html>

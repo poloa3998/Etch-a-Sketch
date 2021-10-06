@@ -1,0 +1,142 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    
+}
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-size: 60px;
+    background-color: rgb(62, 62, 214);
+    color: white;
+    border: 3px solid black;
+}
+.grid {
+    display: grid;
+    height: 600px;
+    width:  600px;
+    box-shadow: rgba(0, 0, 0, 0.30) 0px 3px 8px;
+}
+
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+    
+
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.active {
+    color: white;
+    background-color:rgb(62, 62, 214)
+}
+button {
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    transition: transform 0.1s ease-in-out;
+}
+
+button:hover {
+    transform: scale(1.10);
+}
+#color-picker {
+    -webkit-appearance: none;
+    height: 100px;
+    width: 100px;
+    border: none;
+    background-color: inherit;
+    transition: transform 0.1s ease-in-out;
+}
+#color-picker:hover {
+    transform: scale(1.05);
+}
+#color-picker:active {
+    transition: transform 0.05s ease-in-out;
+    transform: scale(1);
+}
+
+#color-picker::-webkit-color-swatch-wrapper {
+    padding: 0;
+  }
+#color-picker::-webkit-color-swatch {
+    border: none;
+    border-radius: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.slider {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 300px;
+}
+#grid-size {
+    -webkit-appearance: none;
+    height: 15px;
+    width: 600px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+}
+
+#grid-size:hover {
+    opacity: 1;
+}
+
+#grid-size::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(28, 28, 109);
+    cursor: pointer;
+
+}
+#grid-size-value {
+    text-align: center;
+    font-size: 30px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(28, 28, 109);
+    color: white;
+    font-size: 30px;
+}
+
+
+  
+  @media (max-width: 800px) {
+    .main {
+        padding: 60px 0px;
+      flex-direction: column-reverse;
+    }
+  
+    .grid {
+      width: 300px;
+      height: 300px;
+    }
+    .slider {
+        padding: 0;
+    }
+  }
