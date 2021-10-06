@@ -1,6 +1,6 @@
 # Live Preview of Website
 
-[**Live demo**](https://poloa3998.github.io/Etch-a-Sketch/)
+[**Live demo**](https://poloa3998.github.io/odin-sketch/)
 
 # Etch-a-Sketch
 
