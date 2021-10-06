@@ -1,6 +1,6 @@
 # Etch-a-Sketch
 
-A project that's meant to recreate the iconic toy [**Etch a Sketch**](https://en.wikipedia.org/wiki/Etch_A_Sketch) by using only HTML, CSS, and vanila JS.
+A project that's meant to recreate the iconic toy [**Etch a Sketch**](https://en.wikipedia.org/wiki/Etch_A_Sketch) by using only HTML, CSS, and vanilla JS.
 
 ## Description
 
@@ -11,8 +11,6 @@ This project has the capabilites to
 * Allows the user to erase one pixel or clear the entire board
 
 ## Built with
-
-### Technologies
 
 * HTML
 * CSS
