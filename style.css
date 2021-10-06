@@ -130,7 +130,8 @@ footer {
   and (max-device-width: 530px)  { 
       .main {
           padding: 0px;
-        flex-direction: column-reverse;
+          flex-direction: column-reverse;
+          gap: 30px;
       }
       
       .grid {
