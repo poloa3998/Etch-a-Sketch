@@ -1,3 +1,7 @@
+# Live Preview of Website
+
+[**Live demo**](https://poloa3998.github.io/Etch-a-Sketch/)
+
 # Etch-a-Sketch
 
 A project that's meant to recreate the iconic toy [**Etch a Sketch**](https://en.wikipedia.org/wiki/Etch_A_Sketch) by using only HTML, CSS, and vanilla JS.
