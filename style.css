@@ -18,8 +18,8 @@ body {
 }
 .grid {
     display: grid;
-    height: 600px;
-    width:  600px;
+    height: 500px;
+    width:  500px;
     box-shadow: rgba(0, 0, 0, 0.30) 0px 3px 8px;
 }
 
