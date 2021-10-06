@@ -125,19 +125,22 @@ footer {
     font-size: 30px;
 }
 
+@media only screen 
+  and (min-device-width: 250px)
+  and (max-device-width: 530px)  { 
+      .main {
+          padding: 0px;
+        flex-direction: column-reverse;
+      }
+      
+      .grid {
+        width: 300px;
+        height: 300px;
+      }
+      .slider {
+          height: 200px;
+          padding: 0px;
+      }
 
+}
   
-  @media (max-width: 800px) {
-    .main {
-        padding: 60px 0px;
-      flex-direction: column-reverse;
-    }
-  
-    .grid {
-      width: 300px;
-      height: 300px;
-    }
-    .slider {
-        padding: 0;
-    }
-  }
